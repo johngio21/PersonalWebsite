@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: cyan;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: lightblue;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: bold italic;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background: blue;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: ending;
+            width: 100%;
+            bottom: 0;
+        }
+        .highlight {
+            background: #f4f4f4;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-left: 5px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+
+    <nav>
+        <a href="#about">ABOUT ME</a>
+        <a href="#contact">CONTACT ME</a>
+    </nav>
+
+    <section id="homepage">
+        <h2>Welcome Message</h2>
+        <p>Hello and welcome! My name is John Gio N. Dionisio, I'm thrilled to share a little slice of my life and passions with you. Dive in to explore my journey, highlights, and how you can connect with me.</p>
+
+        <div class="highlight">
+            <h3>Highlights</h3>
+            <ul>
+				<li>Aspiring computer science student with a curiosity for solving problems through technology.</li>
+                <li>Musician and saxophone player in Cardona singko.</li>
+                <li>Member of a local band, sharing music and teaching young musicians.</li>
+             
+            </ul>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <h3>Who I Am:</h3>
+		<p>I’m John Gio, the youngest of four siblings in a loving family. Inspired by my parents, Urbano and Edna, and my sisters, Daphne (a registered nurse), Nhippy (a registered nurse)and Myrtle (a HRM graduate) I’m building a career in Computer Science while nurturing my love for music.</p>
+        <p>I'm always been passionate about exploring new things and I'm always earger to learn new skills and grow both personally and professionally.</p>
+
+        <h3>My Journey:</h3>
+        <p>From playing the saxophone in a local band to pursuing Computer Science, I've always sought ways to blend my love for music and technology. Each step in my journey reflects my commitment to making a meaningful impact in the lives of those around me.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <h3>Get in Touch:</h3>
+        <p>Email: <a href="mailto:yourname@example.com">Giodionisio9@gmail.com</a></p>
+
+        <h3>Social Media Links:</h3>
+        <ul>
+            <li><a href="#">Facebook (https://www.facebook.com/gioAyala21)</a></li>
+            <li><a href="#">Twitter (https://x.com/johngiooo?t=cEc_JgdetixZCzeQKLTmAA&s=07&mx=2	)</a></li>
+            <li><a href="#">Instagram (https://www.instagram.com/johngio21/?igsh=MXJtZTZma243YnI5ZQ%3D%3D&utm_source=ig_contact_invite#)</a></li>
+        </ul>
+
+        <h3>Quote to Inspire Visitors:</h3>
+        <blockquote>
+            "The best way to find yourself is to lose yourself in the service of others." – Mahatma Gandhi
+        </blockquote>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 John Gio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
